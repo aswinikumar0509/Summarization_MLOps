@@ -1,1 +1,35 @@
 [2026-01-17 23:38:59,023: INFO: main: Logging is implement]
+[2026-01-18 23:43:14,220: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-18 23:43:14,227: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-18 23:44:24,728: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-18 23:44:24,731: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-18 23:46:36,459: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-18 23:46:36,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-18 23:47:43,726: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-18 23:47:43,728: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-18 23:47:43,730: INFO: common: created directory at: artifacts]
+[2026-01-18 23:47:43,731: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-18 23:48:40,845: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-18 23:48:40,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-18 23:48:40,849: INFO: common: created directory at: artifacts]
+[2026-01-18 23:48:40,850: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-18 23:48:44,841: INFO: 2235650796: File is downloaded]
+[2026-01-18 23:58:50,531: INFO: main: stage Data Ingestion stage initiated]
+[2026-01-18 23:58:50,532: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-18 23:58:50,533: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-18 23:58:50,533: INFO: common: created directory at: artifacts]
+[2026-01-18 23:58:50,534: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-18 23:58:50,534: ERROR: main: 'DataIngestion' object has no attribute 'downlaod_file']
+Traceback (most recent call last):
+  File "C:\Users\aswin\OneDrive\Documents\Data Science\MLOPS-Projects\Text Summarization\main.py", line 9, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "C:\Users\aswin\OneDrive\Documents\Data Science\MLOPS-Projects\Text Summarization\src\textSummarizer\pipeline\stage_1_data_ingestion.py", line 14, in initiate_data_ingestion
+    data_ingestion.downlaod_file()
+AttributeError: 'DataIngestion' object has no attribute 'downlaod_file'
+[2026-01-18 23:59:14,610: INFO: main: stage Data Ingestion stage initiated]
+[2026-01-18 23:59:14,612: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-18 23:59:14,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-18 23:59:14,612: INFO: common: created directory at: artifacts]
+[2026-01-18 23:59:14,613: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-18 23:59:14,613: INFO: data_ingestion: File already Exist]
+[2026-01-18 23:59:14,736: INFO: main: Stage Data Ingestion stage Completed]
