@@ -33,3 +33,53 @@ AttributeError: 'DataIngestion' object has no attribute 'downlaod_file'
 [2026-01-18 23:59:14,613: INFO: common: created directory at: artifacts/data_ingestion]
 [2026-01-18 23:59:14,613: INFO: data_ingestion: File already Exist]
 [2026-01-18 23:59:14,736: INFO: main: Stage Data Ingestion stage Completed]
+[2026-01-19 10:26:27,452: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-19 10:26:27,468: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-19 10:26:27,470: INFO: common: created directory at: artifacts]
+[2026-01-19 10:26:27,473: INFO: common: created directory at: artifacts/data_transformation]
+[2026-01-19 10:39:49,093: INFO: main: stage Data Ingestion stage initiated]
+[2026-01-19 10:39:49,096: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-19 10:39:49,097: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-19 10:39:49,097: INFO: common: created directory at: artifacts]
+[2026-01-19 10:39:49,098: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\aswin\OneDrive\Documents\Data Science\MLOPS-Projects\Text Summarization\main.py", line 10, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "C:\Users\aswin\OneDrive\Documents\Data Science\MLOPS-Projects\Text Summarization\src\textSummarizer\pipeline\stage_1_data_ingestion.py", line 11, in initiate_data_ingestion
+    data_ingestion_config=config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2026-01-19 10:42:44,458: INFO: main: stage Data Ingestion stage initiated]
+[2026-01-19 10:42:44,462: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-19 10:42:44,463: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-19 10:42:44,463: INFO: common: created directory at: artifacts]
+[2026-01-19 10:42:44,463: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\aswin\OneDrive\Documents\Data Science\MLOPS-Projects\Text Summarization\main.py", line 10, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "C:\Users\aswin\OneDrive\Documents\Data Science\MLOPS-Projects\Text Summarization\src\textSummarizer\pipeline\stage_1_data_ingestion.py", line 11, in initiate_data_ingestion
+    data_ingestion_config=config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2026-01-19 10:45:17,053: INFO: main: stage Data Ingestion stage initiated]
+[2026-01-19 10:45:17,053: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-19 10:45:17,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-19 10:45:17,053: INFO: common: created directory at: artifacts]
+[2026-01-19 10:45:17,053: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\aswin\OneDrive\Documents\Data Science\MLOPS-Projects\Text Summarization\main.py", line 10, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "C:\Users\aswin\OneDrive\Documents\Data Science\MLOPS-Projects\Text Summarization\src\textSummarizer\pipeline\stage_1_data_ingestion.py", line 11, in initiate_data_ingestion
+    data_ingestion_config=config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2026-01-19 10:45:49,310: INFO: main: stage Data Ingestion stage initiated]
+[2026-01-19 10:45:49,310: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-19 10:45:49,310: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-19 10:45:49,313: INFO: common: created directory at: artifacts]
+[2026-01-19 10:45:49,313: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-19 10:45:49,324: INFO: data_ingestion: File already Exist]
+[2026-01-19 10:45:49,451: INFO: main: Stage Data Ingestion stage Completed]
+[2026-01-19 10:45:49,451: INFO: main: stage Data Transformation stage initiated]
+[2026-01-19 10:45:49,453: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-19 10:45:49,453: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-19 10:45:49,453: INFO: common: created directory at: artifacts]
+[2026-01-19 10:45:49,453: INFO: common: created directory at: artifacts/data_transformation]
+[2026-01-19 10:45:55,366: INFO: main: Stage Data Transformation stage Completed]
